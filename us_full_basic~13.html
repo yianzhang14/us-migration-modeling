@@ -1,0 +1,327 @@
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>us_full_basic - Report from biogeme 3.2.8 [2022-06-25]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 3.2.8 [2022-06-25]">
+<meta name="author" content="{bv.author}">
+<style type=text/css>
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<p>biogeme 3.2.8 [2022-06-25]</p>
+<p><a href="https://www.python.org/" target="_blank">Python</a> package</p>
+<p>Home page: <a href="http://biogeme.epfl.ch" target="_blank">http://biogeme.epfl.ch</a></p>
+<p>Submit questions to <a href="https://groups.google.com/d/forum/biogeme" target="_blank">https://groups.google.com/d/forum/biogeme</a></p>
+<p><a href="http://people.epfl.ch/michel.bierlaire">Michel Bierlaire</a>, <a href="http://transp-or.epfl.ch">Transport and Mobility Laboratory</a>, <a href="http://www.epfl.ch">Ecole Polytechnique F&#233;d&#233;rale de Lausanne (EPFL)</a></p>
+<p>This file has automatically been generated on 2022-06-25 12:45:04.966001</p>
+<table>
+<tr class=biostyle><td align=right><strong>Report file</strong>:	</td><td>us_full_basic~13.html</td></tr>
+<tr class=biostyle><td align=right><strong>Database name</strong>:	</td><td>us_data</td></tr>
+</table>
+<h1>Estimation report</h1>
+<table border="0">
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>22</td></tr>
+<tr class=biostyle><td align=right ><strong>Sample size</strong>: </td> <td>63272</td></tr>
+<tr class=biostyle><td align=right ><strong>Excluded observations</strong>: </td> <td>0</td></tr>
+<tr class=biostyle><td align=right ><strong>Null log likelihood</strong>: </td> <td>-292007.9</td></tr>
+<tr class=biostyle><td align=right ><strong>Init log likelihood</strong>: </td> <td>-36027.26</td></tr>
+<tr class=biostyle><td align=right ><strong>Final log likelihood</strong>: </td> <td>-35989.13</td></tr>
+<tr class=biostyle><td align=right ><strong>Likelihood ratio test for the null model</strong>: </td> <td>512037.5</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square for the null model</strong>: </td> <td>0.877</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square-bar for the null model</strong>: </td> <td>0.877</td></tr>
+<tr class=biostyle><td align=right ><strong>Likelihood ratio test for the init. model</strong>: </td> <td>76.26419</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square for the init. model</strong>: </td> <td>0.00106</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square-bar for the init. model</strong>: </td> <td>0.000448</td></tr>
+<tr class=biostyle><td align=right ><strong>Akaike Information Criterion</strong>: </td> <td>72022.26</td></tr>
+<tr class=biostyle><td align=right ><strong>Bayesian Information Criterion</strong>: </td> <td>72221.48</td></tr>
+<tr class=biostyle><td align=right ><strong>Final gradient norm</strong>: </td> <td>5.5362E-01</td></tr>
+<tr class=biostyle><td align=right ><strong>Nbr of threads</strong>: </td> <td>16</td></tr>
+<tr class=biostyle><td align=right ><strong>Algorithm</strong>: </td> <td>Newton with trust region for simple bound constraints</td></tr>
+<tr class=biostyle><td align=right ><strong>Proportion analytical hessian</strong>: </td> <td>100.0%</td></tr>
+<tr class=biostyle><td align=right ><strong>Relative projected gradient</strong>: </td> <td>1.438241e-05</td></tr>
+<tr class=biostyle><td align=right ><strong>Relative change</strong>: </td> <td>2.962019911512126e-06</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of iterations</strong>: </td> <td>3</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of function evaluations</strong>: </td> <td>10</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of gradient evaluations</strong>: </td> <td>4</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of hessian evaluations</strong>: </td> <td>4</td></tr>
+<tr class=biostyle><td align=right ><strong>Cause of termination</strong>: </td> <td>Relative change = 2.96e-06 <= 1e-05</td></tr>
+<tr class=biostyle><td align=right ><strong>Optimization time</strong>: </td> <td>0:16:57.383740</td></tr>
+</table>
+<h1>Estimated parameters</h1>
+<table border="1">
+<tr class=biostyle><th>Name</th><th>Value</th><th>Std err</th><th>t-test</th><th>p-value</th><th>Rob. Std err</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>c_destchoice_Metro_Metro</td><td>1.03</td><td>0.035</td><td>29.5</td><td>0</td><td>0.0375</td><td>27.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Metro_Micro</td><td>0.877</td><td>0.0663</td><td>13.2</td><td>0</td><td>0.0689</td><td>12.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Metro_T34</td><td>0.16</td><td>0.061</td><td>2.62</td><td>0.00874</td><td>0.064</td><td>2.5</td><td>0.0124</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Metro</td><td>0.509</td><td>0.0654</td><td>7.78</td><td>7.55e-15</td><td>0.0682</td><td>7.46</td><td>8.44e-14</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Micro</td><td>1.57</td><td>0.0497</td><td>31.7</td><td>0</td><td>0.0493</td><td>31.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>-0.398</td><td>0.084</td><td>-4.73</td><td>2.21e-06</td><td>0.0859</td><td>-4.63</td><td>3.66e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>0.251</td><td>0.0537</td><td>4.67</td><td>3.05e-06</td><td>0.0563</td><td>4.46</td><td>8.34e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>0.305</td><td>0.084</td><td>3.64</td><td>0.000276</td><td>0.0864</td><td>3.53</td><td>0.000409</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>3.56</td><td>0.148</td><td>24.1</td><td>0</td><td>0.148</td><td>24.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>3.32</td><td>0.101</td><td>32.8</td><td>0</td><td>0.101</td><td>32.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>7.36e-05</td><td>2.08e-06</td><td>35.3</td><td>0</td><td>2.13e-06</td><td>34.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>-1.22e-06</td><td>3.08e-08</td><td>-39.6</td><td>0</td><td>5.58e-08</td><td>-21.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>-1.03</td><td>0.151</td><td>-6.85</td><td>7.51e-12</td><td>0.166</td><td>-6.22</td><td>5.12e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>7.35</td><td>0.00255</td><td>2.88e+03</td><td>0</td><td>0.0025</td><td>2.94e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>-2.89</td><td>0.0947</td><td>-30.5</td><td>0</td><td>0.0946</td><td>-30.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>1.71</td><td>0.207</td><td>8.28</td><td>2.22e-16</td><td>0.206</td><td>8.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>10.6</td><td>0.00854</td><td>1.25e+03</td><td>0</td><td>0.00836</td><td>1.27e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>-0.337</td><td>0.00301</td><td>-112</td><td>0</td><td>0.00403</td><td>-83.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>3.22</td><td>0.226</td><td>14.3</td><td>0</td><td>0.215</td><td>15</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>-0.426</td><td>0.233</td><td>-1.83</td><td>0.0671</td><td>0.234</td><td>-1.82</td><td>0.0682</td></tr>
+<tr class=biostyle><td>c_stay</td><td>14.4</td><td>0.0524</td><td>275</td><td>0</td><td>0.0526</td><td>274</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>0.76</td><td>0.151</td><td>5.02</td><td>5.12e-07</td><td>0.154</td><td>4.94</td><td>7.76e-07</td></tr>
+</table>
+<h2>Correlation of coefficients</h2>
+<table border="1">
+<tr class=biostyle><th>Coefficient1</th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>c_destchoice_Metro_Micro</td><td>c_destchoice_Metro_Metro</td><td>0.000809</td><td>0.348</td><td>-2.47</td><td>0.0135</td><td>0.00113</td><td>0.436</td><td>-2.5</td><td>0.0123</td></tr>
+<tr class=biostyle><td>c_destchoice_Metro_T34</td><td>c_destchoice_Metro_Metro</td><td>0.000774</td><td>0.362</td><td>-15</td><td>0</td><td>0.00109</td><td>0.455</td><td>-15.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Metro_T34</td><td>c_destchoice_Metro_Micro</td><td>0.0011</td><td>0.271</td><td>-9.31</td><td>0</td><td>0.00147</td><td>0.332</td><td>-9.32</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Metro</td><td>c_destchoice_Metro_Metro</td><td>0.000721</td><td>0.314</td><td>-8.22</td><td>2.22e-16</td><td>0.00101</td><td>0.396</td><td>-8.26</td><td>2.22e-16</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Metro</td><td>c_destchoice_Metro_Micro</td><td>0.00102</td><td>0.236</td><td>-4.52</td><td>6.31e-06</td><td>0.00139</td><td>0.296</td><td>-4.52</td><td>6.15e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Metro</td><td>c_destchoice_Metro_T34</td><td>0.00102</td><td>0.256</td><td>4.52</td><td>6.24e-06</td><td>0.00136</td><td>0.311</td><td>4.49</td><td>6.98e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Micro</td><td>c_destchoice_Metro_Metro</td><td>0.000668</td><td>0.384</td><td>11.1</td><td>0</td><td>0.000903</td><td>0.489</td><td>12</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Micro</td><td>c_destchoice_Metro_Micro</td><td>0.00092</td><td>0.279</td><td>9.84</td><td>0</td><td>0.00128</td><td>0.376</td><td>10.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Micro</td><td>c_destchoice_Metro_T34</td><td>0.000774</td><td>0.255</td><td>20.8</td><td>0</td><td>0.00111</td><td>0.353</td><td>21.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_Micro</td><td>c_destchoice_Micro_Metro</td><td>0.000899</td><td>0.277</td><td>15.1</td><td>0</td><td>0.0012</td><td>0.358</td><td>15.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>c_destchoice_Metro_Metro</td><td>0.000651</td><td>0.221</td><td>-17.1</td><td>0</td><td>0.000916</td><td>0.285</td><td>-17.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>c_destchoice_Metro_Micro</td><td>0.000847</td><td>0.152</td><td>-12.9</td><td>0</td><td>0.00119</td><td>0.201</td><td>-12.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>c_destchoice_Metro_T34</td><td>0.00088</td><td>0.172</td><td>-5.87</td><td>4.31e-09</td><td>0.0012</td><td>0.219</td><td>-5.86</td><td>4.66e-09</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>c_destchoice_Micro_Metro</td><td>0.000987</td><td>0.179</td><td>-9.37</td><td>0</td><td>0.00134</td><td>0.229</td><td>-9.38</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_Micro_T34</td><td>c_destchoice_Micro_Micro</td><td>0.000775</td><td>0.186</td><td>-22.1</td><td>0</td><td>0.00109</td><td>0.258</td><td>-22.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Metro_Metro</td><td>0.000651</td><td>0.346</td><td>-14.8</td><td>0</td><td>0.000914</td><td>0.434</td><td>-14.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Metro_Micro</td><td>0.000961</td><td>0.27</td><td>-8.54</td><td>0</td><td>0.00126</td><td>0.326</td><td>-8.53</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Metro_T34</td><td>0.000948</td><td>0.289</td><td>1.32</td><td>0.186</td><td>0.00124</td><td>0.344</td><td>1.31</td><td>0.189</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Micro_Metro</td><td>0.000909</td><td>0.258</td><td>-3.53</td><td>0.00042</td><td>0.00118</td><td>0.307</td><td>-3.49</td><td>0.00048</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Micro_Micro</td><td>0.000726</td><td>0.272</td><td>-21.2</td><td>0</td><td>0.00101</td><td>0.363</td><td>-22.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Metro</td><td>c_destchoice_Micro_T34</td><td>0.000765</td><td>0.169</td><td>7.07</td><td>1.56e-12</td><td>0.00103</td><td>0.214</td><td>7.04</td><td>1.9e-12</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Metro_Metro</td><td>0.000721</td><td>0.245</td><td>-8.8</td><td>0</td><td>0.00105</td><td>0.323</td><td>-8.84</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Metro_Micro</td><td>0.00115</td><td>0.207</td><td>-5.97</td><td>2.32e-09</td><td>0.0016</td><td>0.268</td><td>-6.02</td><td>1.79e-09</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Metro_T34</td><td>0.00104</td><td>0.203</td><td>1.56</td><td>0.119</td><td>0.0014</td><td>0.254</td><td>1.55</td><td>0.12</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Micro_Metro</td><td>0.00101</td><td>0.184</td><td>-2.11</td><td>0.0349</td><td>0.0014</td><td>0.238</td><td>-2.11</td><td>0.0349</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Micro_Micro</td><td>0.000881</td><td>0.211</td><td>-14.4</td><td>0</td><td>0.00125</td><td>0.293</td><td>-14.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_Micro_T34</td><td>0.000829</td><td>0.117</td><td>6.3</td><td>2.96e-10</td><td>0.00119</td><td>0.16</td><td>6.3</td><td>3.02e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_T34_Micro</td><td>c_destchoice_T34_Metro</td><td>0.00102</td><td>0.225</td><td>0.614</td><td>0.539</td><td>0.00133</td><td>0.274</td><td>0.611</td><td>0.541</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Metro_Metro</td><td>0.000519</td><td>0.1</td><td>17</td><td>0</td><td>0.000582</td><td>0.105</td><td>17</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Metro_Micro</td><td>0.00178</td><td>0.182</td><td>17.8</td><td>0</td><td>0.00187</td><td>0.184</td><td>17.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Metro_T34</td><td>8.55e-06</td><td>0.00095</td><td>21.3</td><td>0</td><td>6.35e-05</td><td>0.00672</td><td>21.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Micro_Metro</td><td>0.000398</td><td>0.0413</td><td>19.2</td><td>0</td><td>0.000208</td><td>0.0207</td><td>18.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Micro_Micro</td><td>0.00173</td><td>0.235</td><td>13.8</td><td>0</td><td>0.00177</td><td>0.244</td><td>13.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_Micro_T34</td><td>-0.000206</td><td>-0.0167</td><td>23.1</td><td>0</td><td>-0.000325</td><td>-0.0257</td><td>22.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_T34_Metro</td><td>0.000699</td><td>0.0882</td><td>21.7</td><td>0</td><td>0.000682</td><td>0.0821</td><td>21.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_18_34</td><td>c_destchoice_T34_Micro</td><td>0.00189</td><td>0.152</td><td>20.6</td><td>0</td><td>0.00188</td><td>0.148</td><td>20.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Metro_Metro</td><td>-0.000429</td><td>-0.121</td><td>20.6</td><td>0</td><td>-0.000465</td><td>-0.123</td><td>20.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Metro_Micro</td><td>-0.00119</td><td>-0.177</td><td>18.7</td><td>0</td><td>-0.00124</td><td>-0.177</td><td>18.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Metro_T34</td><td>-4.74e-05</td><td>-0.0077</td><td>26.6</td><td>0</td><td>-0.000116</td><td>-0.018</td><td>26.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Micro_Metro</td><td>-0.000283</td><td>-0.0428</td><td>22.9</td><td>0</td><td>-0.000151</td><td>-0.0219</td><td>22.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Micro_Micro</td><td>-0.00122</td><td>-0.244</td><td>14.2</td><td>0</td><td>-0.00126</td><td>-0.251</td><td>14.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_Micro_T34</td><td>4.06e-05</td><td>0.00478</td><td>28.3</td><td>0</td><td>8.86e-05</td><td>0.0102</td><td>28.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_T34_Metro</td><td>-0.000473</td><td>-0.0871</td><td>25.9</td><td>0</td><td>-0.000466</td><td>-0.0818</td><td>25.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_T34_Micro</td><td>-0.00117</td><td>-0.138</td><td>21.5</td><td>0</td><td>-0.00117</td><td>-0.133</td><td>21.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_age_over_65</td><td>c_destchoice_age_18_34</td><td>-0.0148</td><td>-0.991</td><td>-0.98</td><td>0.327</td><td>-0.0148</td><td>-0.991</td><td>-0.978</td><td>0.328</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Metro_Metro</td><td>-2.77e-09</td><td>-0.038</td><td>-29.5</td><td>0</td><td>-4.32e-09</td><td>-0.0541</td><td>-27.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Metro_Micro</td><td>-1.13e-09</td><td>-0.00818</td><td>-13.2</td><td>0</td><td>-8.81e-10</td><td>-0.00599</td><td>-12.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Metro_T34</td><td>2.33e-09</td><td>0.0183</td><td>-2.62</td><td>0.00877</td><td>1.12e-09</td><td>0.00823</td><td>-2.5</td><td>0.0124</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Micro_Metro</td><td>-1.6e-09</td><td>-0.0117</td><td>-7.77</td><td>7.55e-15</td><td>-8.14e-10</td><td>-0.0056</td><td>-7.46</td><td>8.5e-14</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Micro_Micro</td><td>-2.21e-09</td><td>-0.0213</td><td>-31.7</td><td>0</td><td>-2.86e-09</td><td>-0.0273</td><td>-31.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_Micro_T34</td><td>4.89e-09</td><td>0.0279</td><td>4.73</td><td>2.2e-06</td><td>6.81e-09</td><td>0.0372</td><td>4.63</td><td>3.65e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_T34_Metro</td><td>-5.87e-09</td><td>-0.0524</td><td>-4.67</td><td>3.07e-06</td><td>-1.75e-09</td><td>-0.0146</td><td>-4.45</td><td>8.39e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_T34_Micro</td><td>-2.27e-09</td><td>-0.013</td><td>-3.64</td><td>0.000277</td><td>3.19e-09</td><td>0.0173</td><td>-3.53</td><td>0.00041</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_age_18_34</td><td>-1.08e-07</td><td>-0.353</td><td>-24.1</td><td>0</td><td>-1.08e-07</td><td>-0.343</td><td>-24.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_college</td><td>c_destchoice_age_over_65</td><td>7.15e-08</td><td>0.34</td><td>-32.8</td><td>0</td><td>7.23e-08</td><td>0.334</td><td>-32.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Metro_Metro</td><td>-2.58e-11</td><td>-0.0239</td><td>-29.5</td><td>0</td><td>-1.5e-10</td><td>-0.072</td><td>-27.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Metro_Micro</td><td>-4.32e-11</td><td>-0.0211</td><td>-13.2</td><td>0</td><td>-4.49e-10</td><td>-0.117</td><td>-12.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Metro_T34</td><td>1.54e-11</td><td>0.00819</td><td>-2.62</td><td>0.00873</td><td>1.6e-10</td><td>0.0449</td><td>-2.5</td><td>0.0124</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Micro_Metro</td><td>-5.86e-11</td><td>-0.0291</td><td>-7.78</td><td>7.55e-15</td><td>-4.92e-10</td><td>-0.129</td><td>-7.46</td><td>8.44e-14</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Micro_Micro</td><td>-5.42e-11</td><td>-0.0354</td><td>-31.7</td><td>0</td><td>-3.2e-10</td><td>-0.116</td><td>-31.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_Micro_T34</td><td>-7.02e-11</td><td>-0.0271</td><td>4.73</td><td>2.21e-06</td><td>-2.1e-10</td><td>-0.0438</td><td>4.63</td><td>3.66e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_T34_Metro</td><td>6.47e-12</td><td>0.0039</td><td>-4.67</td><td>3.05e-06</td><td>7.34e-11</td><td>0.0234</td><td>-4.46</td><td>8.34e-06</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_T34_Micro</td><td>-7.56e-11</td><td>-0.0292</td><td>-3.64</td><td>0.000276</td><td>-5.26e-10</td><td>-0.109</td><td>-3.53</td><td>0.000409</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_age_18_34</td><td>-6.84e-11</td><td>-0.015</td><td>-24.1</td><td>0</td><td>-9.47e-11</td><td>-0.0115</td><td>-24.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_age_over_65</td><td>5.35e-11</td><td>0.0172</td><td>-32.8</td><td>0</td><td>5.09e-11</td><td>0.00901</td><td>-32.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_dist</td><td>c_destchoice_college</td><td>2.57e-16</td><td>0.004</td><td>-35.9</td><td>0</td><td>-6.56e-15</td><td>-0.0552</td><td>-35</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Metro_Metro</td><td>0.000961</td><td>0.181</td><td>-13.9</td><td>0</td><td>0.00114</td><td>0.183</td><td>-12.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Metro_Micro</td><td>0.00099</td><td>0.0988</td><td>-12</td><td>0</td><td>0.00117</td><td>0.102</td><td>-11</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Metro_T34</td><td>0.000783</td><td>0.085</td><td>-7.56</td><td>4.11e-14</td><td>0.00131</td><td>0.123</td><td>-6.99</td><td>2.71e-12</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Micro_Metro</td><td>0.00103</td><td>0.104</td><td>-9.75</td><td>0</td><td>0.00127</td><td>0.112</td><td>-8.94</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Micro_Micro</td><td>0.00114</td><td>0.152</td><td>-17.2</td><td>0</td><td>0.00136</td><td>0.166</td><td>-15.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_Micro_T34</td><td>0.00102</td><td>0.0805</td><td>-3.82</td><td>0.000135</td><td>0.00157</td><td>0.11</td><td>-3.56</td><td>0.000366</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_T34_Metro</td><td>0.000675</td><td>0.0832</td><td>-8.23</td><td>2.22e-16</td><td>0.00087</td><td>0.0929</td><td>-7.53</td><td>5.06e-14</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_T34_Micro</td><td>0.000875</td><td>0.0689</td><td>-7.99</td><td>1.33e-15</td><td>0.00103</td><td>0.0716</td><td>-7.36</td><td>1.79e-13</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_age_18_34</td><td>-0.00182</td><td>-0.0817</td><td>-20.9</td><td>0</td><td>-0.00204</td><td>-0.083</td><td>-19.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_age_over_65</td><td>0.000569</td><td>0.0373</td><td>-24.4</td><td>0</td><td>0.000573</td><td>0.034</td><td>-22.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_college</td><td>1.26e-08</td><td>0.0399</td><td>-6.85</td><td>7.49e-12</td><td>1.21e-08</td><td>0.0342</td><td>-6.22</td><td>5.11e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_foreign</td><td>c_destchoice_dist</td><td>-1.69e-12</td><td>-0.000363</td><td>-6.85</td><td>7.51e-12</td><td>2.68e-10</td><td>0.0289</td><td>-6.22</td><td>5.12e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Metro_Metro</td><td>1.35e-05</td><td>0.151</td><td>182</td><td>0</td><td>1.62e-05</td><td>0.173</td><td>170</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Metro_Micro</td><td>2.09e-05</td><td>0.124</td><td>97.9</td><td>0</td><td>2.55e-05</td><td>0.148</td><td>94.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Metro_T34</td><td>1.36e-05</td><td>0.0874</td><td>118</td><td>0</td><td>1.77e-05</td><td>0.11</td><td>113</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Micro_Metro</td><td>1.94e-05</td><td>0.116</td><td>105</td><td>0</td><td>2.1e-05</td><td>0.123</td><td>101</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Micro_Micro</td><td>2.21e-05</td><td>0.174</td><td>117</td><td>0</td><td>2.44e-05</td><td>0.198</td><td>118</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_Micro_T34</td><td>1.68e-05</td><td>0.0782</td><td>92.4</td><td>0</td><td>1.93e-05</td><td>0.09</td><td>90.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_T34_Metro</td><td>1.01e-05</td><td>0.0739</td><td>132</td><td>0</td><td>1.2e-05</td><td>0.0853</td><td>126</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_T34_Micro</td><td>1.58e-05</td><td>0.0736</td><td>84</td><td>0</td><td>1.53e-05</td><td>0.0707</td><td>81.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_age_18_34</td><td>2.09e-05</td><td>0.0555</td><td>25.7</td><td>0</td><td>2.4e-05</td><td>0.0648</td><td>25.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_age_over_65</td><td>-3.16e-06</td><td>-0.0123</td><td>39.9</td><td>0</td><td>-8.23e-06</td><td>-0.0324</td><td>39.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_college</td><td>1.12e-10</td><td>0.021</td><td>2.88e+03</td><td>0</td><td>1.27e-10</td><td>0.0239</td><td>2.94e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_dist</td><td>-1.27e-12</td><td>-0.0162</td><td>2.88e+03</td><td>0</td><td>-3.09e-12</td><td>-0.0222</td><td>2.94e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_geo_spec_job</td><td>c_destchoice_foreign</td><td>5.53e-05</td><td>0.144</td><td>55.6</td><td>0</td><td>7.83e-05</td><td>0.188</td><td>50.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Metro_Metro</td><td>7.77e-05</td><td>0.0234</td><td>-39.1</td><td>0</td><td>9.67e-05</td><td>0.0273</td><td>-38.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Metro_Micro</td><td>-2.77e-05</td><td>-0.00442</td><td>-32.5</td><td>0</td><td>-0.000151</td><td>-0.0232</td><td>-31.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Metro_T34</td><td>-5.18e-05</td><td>-0.00896</td><td>-26.9</td><td>0</td><td>-2.95e-05</td><td>-0.00487</td><td>-26.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Micro_Metro</td><td>-2.31e-06</td><td>-0.000372</td><td>-29.5</td><td>0</td><td>2.25e-05</td><td>0.00349</td><td>-29.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Micro_Micro</td><td>0.000175</td><td>0.0372</td><td>-42.4</td><td>0</td><td>0.000155</td><td>0.0333</td><td>-42.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_Micro_T34</td><td>0.000102</td><td>0.0128</td><td>-19.8</td><td>0</td><td>0.000119</td><td>0.0146</td><td>-19.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_T34_Metro</td><td>3.08e-05</td><td>0.00606</td><td>-28.9</td><td>0</td><td>9.66e-05</td><td>0.0181</td><td>-28.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_T34_Micro</td><td>-2.97e-05</td><td>-0.00374</td><td>-25.2</td><td>0</td><td>-2.21e-05</td><td>-0.00271</td><td>-24.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_age_18_34</td><td>0.00425</td><td>0.304</td><td>-43.2</td><td>0</td><td>0.00421</td><td>0.302</td><td>-43.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_age_over_65</td><td>-0.00262</td><td>-0.274</td><td>-39.7</td><td>0</td><td>-0.00261</td><td>-0.273</td><td>-39.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_college</td><td>-4.07e-08</td><td>-0.206</td><td>-30.5</td><td>0</td><td>-3.81e-08</td><td>-0.189</td><td>-30.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_dist</td><td>1.5e-11</td><td>0.00514</td><td>-30.5</td><td>0</td><td>1.51e-10</td><td>0.0287</td><td>-30.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_foreign</td><td>-0.000135</td><td>-0.0094</td><td>-10.3</td><td>0</td><td>-3.92e-05</td><td>-0.00249</td><td>-9.67</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_hhcost</td><td>c_destchoice_geo_spec_job</td><td>6.07e-05</td><td>0.251</td><td>-109</td><td>0</td><td>5.34e-05</td><td>0.226</td><td>-109</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Metro_Metro</td><td>-2.74e-05</td><td>-0.00379</td><td>3.23</td><td>0.00125</td><td>-9.47e-05</td><td>-0.0123</td><td>3.22</td><td>0.00126</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Metro_Micro</td><td>-0.000144</td><td>-0.0105</td><td>3.83</td><td>0.000129</td><td>-0.000298</td><td>-0.021</td><td>3.81</td><td>0.000138</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Metro_T34</td><td>-8.92e-05</td><td>-0.00708</td><td>7.18</td><td>6.84e-13</td><td>-0.000217</td><td>-0.0165</td><td>7.15</td><td>8.58e-13</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Micro_Metro</td><td>-2.27e-05</td><td>-0.00168</td><td>5.54</td><td>3.02e-08</td><td>-9.8e-05</td><td>-0.00698</td><td>5.52</td><td>3.33e-08</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Micro_Micro</td><td>-0.000129</td><td>-0.0126</td><td>0.637</td><td>0.524</td><td>-0.000161</td><td>-0.0159</td><td>0.638</td><td>0.523</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_Micro_T34</td><td>-4e-05</td><td>-0.00231</td><td>9.44</td><td>0</td><td>-0.000256</td><td>-0.0145</td><td>9.39</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_T34_Metro</td><td>4.44e-05</td><td>0.004</td><td>6.84</td><td>7.75e-12</td><td>5.02e-06</td><td>0.000433</td><td>6.83</td><td>8.33e-12</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_T34_Micro</td><td>2.89e-05</td><td>0.00167</td><td>6.3</td><td>2.92e-10</td><td>4.44e-05</td><td>0.00249</td><td>6.29</td><td>3.12e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_age_18_34</td><td>-0.000435</td><td>-0.0143</td><td>-7.24</td><td>4.61e-13</td><td>0.000173</td><td>0.00569</td><td>-7.31</td><td>2.58e-13</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_age_over_65</td><td>0.00046</td><td>0.0221</td><td>-7.05</td><td>1.84e-12</td><td>0.00014</td><td>0.00668</td><td>-7.01</td><td>2.32e-12</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_college</td><td>-3.23e-08</td><td>-0.075</td><td>8.28</td><td>2.22e-16</td><td>-4.74e-08</td><td>-0.108</td><td>8.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_dist</td><td>5.55e-11</td><td>0.00872</td><td>8.28</td><td>2.22e-16</td><td>4.36e-10</td><td>0.038</td><td>8.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_foreign</td><td>0.000628</td><td>0.0201</td><td>10.8</td><td>0</td><td>7.13e-05</td><td>0.00208</td><td>10.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_geo_spec_job</td><td>-0.000365</td><td>-0.693</td><td>-27.1</td><td>0</td><td>-0.000357</td><td>-0.693</td><td>-27.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_high_ed_job</td><td>c_destchoice_hhcost</td><td>-0.00114</td><td>-0.0585</td><td>19.8</td><td>0</td><td>-0.000792</td><td>-0.0406</td><td>20</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Metro_Metro</td><td>1.26e-05</td><td>0.042</td><td>269</td><td>0</td><td>1.25e-05</td><td>0.0398</td><td>252</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Metro_Micro</td><td>2e-05</td><td>0.0354</td><td>146</td><td>0</td><td>2.63e-05</td><td>0.0457</td><td>141</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Metro_T34</td><td>1e-05</td><td>0.0192</td><td>170</td><td>0</td><td>9.39e-06</td><td>0.0176</td><td>163</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Micro_Metro</td><td>1.78e-05</td><td>0.0318</td><td>154</td><td>0</td><td>1.13e-05</td><td>0.0198</td><td>148</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Micro_Micro</td><td>2.67e-05</td><td>0.063</td><td>182</td><td>0</td><td>2.67e-05</td><td>0.0648</td><td>183</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_Micro_T34</td><td>1.45e-05</td><td>0.0203</td><td>131</td><td>0</td><td>9.66e-06</td><td>0.0135</td><td>128</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_T34_Metro</td><td>-1.15e-06</td><td>-0.0025</td><td>191</td><td>0</td><td>-6.04e-06</td><td>-0.0128</td><td>182</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_T34_Micro</td><td>4.29e-07</td><td>0.000599</td><td>122</td><td>0</td><td>-1.4e-05</td><td>-0.0194</td><td>119</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_age_18_34</td><td>-4.32e-05</td><td>-0.0343</td><td>47.8</td><td>0</td><td>-3.1e-05</td><td>-0.0251</td><td>47.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_age_over_65</td><td>6.92e-05</td><td>0.0802</td><td>72.6</td><td>0</td><td>5.18e-05</td><td>0.0611</td><td>72.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_college</td><td>1.21e-09</td><td>0.0681</td><td>1.25e+03</td><td>0</td><td>1.22e-09</td><td>0.0683</td><td>1.27e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_dist</td><td>-3.23e-12</td><td>-0.0123</td><td>1.25e+03</td><td>0</td><td>-7.06e-12</td><td>-0.0151</td><td>1.27e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_foreign</td><td>-1.31e-05</td><td>-0.0102</td><td>77</td><td>0</td><td>2.05e-05</td><td>0.0147</td><td>70</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_geo_spec_job</td><td>2.09e-05</td><td>0.958</td><td>535</td><td>0</td><td>1.99e-05</td><td>0.952</td><td>545</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_hhcost</td><td>3.62e-05</td><td>0.0448</td><td>143</td><td>0</td><td>1.04e-05</td><td>0.0131</td><td>142</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_license_job</td><td>c_destchoice_high_ed_job</td><td>-0.00129</td><td>-0.732</td><td>41.9</td><td>0</td><td>-0.00127</td><td>-0.735</td><td>42</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Metro_Metro</td><td>-1.7e-05</td><td>-0.162</td><td>-38.4</td><td>0</td><td>-2.72e-05</td><td>-0.18</td><td>-35.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Metro_Micro</td><td>-4.63e-05</td><td>-0.232</td><td>-18.1</td><td>0</td><td>-3.99e-05</td><td>-0.144</td><td>-17.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Metro_T34</td><td>-5.51e-05</td><td>-0.3</td><td>-8.02</td><td>1.11e-15</td><td>-7.78e-05</td><td>-0.302</td><td>-7.62</td><td>2.6e-14</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Micro_Metro</td><td>-4.31e-05</td><td>-0.219</td><td>-12.8</td><td>0</td><td>-3.35e-05</td><td>-0.122</td><td>-12.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Micro_Micro</td><td>-1.88e-05</td><td>-0.126</td><td>-38.1</td><td>0</td><td>-2.22e-05</td><td>-0.112</td><td>-38.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_Micro_T34</td><td>-2.98e-05</td><td>-0.118</td><td>0.714</td><td>0.475</td><td>-3.73e-05</td><td>-0.108</td><td>0.698</td><td>0.485</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_T34_Metro</td><td>-4.72e-05</td><td>-0.292</td><td>-10.8</td><td>0</td><td>-6.26e-05</td><td>-0.276</td><td>-10.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_T34_Micro</td><td>-4.94e-05</td><td>-0.195</td><td>-7.6</td><td>3.04e-14</td><td>-4.18e-05</td><td>-0.12</td><td>-7.39</td><td>1.47e-13</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_age_18_34</td><td>9.56e-06</td><td>0.0215</td><td>-26.4</td><td>0</td><td>1.51e-05</td><td>0.0253</td><td>-26.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_age_over_65</td><td>-1.51e-05</td><td>-0.0495</td><td>-36.1</td><td>0</td><td>-1.7e-05</td><td>-0.0417</td><td>-36</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_college</td><td>-4.72e-10</td><td>-0.0753</td><td>-112</td><td>0</td><td>-6.98e-11</td><td>-0.00812</td><td>-83.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_dist</td><td>-5.97e-11</td><td>-0.643</td><td>-112</td><td>0</td><td>-1.8e-10</td><td>-0.802</td><td>-83.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_foreign</td><td>2.6e-05</td><td>0.0572</td><td>4.62</td><td>3.85e-06</td><td>1.79e-05</td><td>0.0267</td><td>4.19</td><td>2.78e-05</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_geo_spec_job</td><td>4.57e-08</td><td>0.00595</td><td>-1.95e+03</td><td>0</td><td>1.33e-08</td><td>0.00132</td><td>-1.62e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_hhcost</td><td>1.06e-05</td><td>0.0371</td><td>26.9</td><td>0</td><td>4.77e-06</td><td>0.0125</td><td>26.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_high_ed_job</td><td>-7.89e-06</td><td>-0.0127</td><td>-9.91</td><td>0</td><td>-2.25e-05</td><td>-0.027</td><td>-9.93</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_logdist</td><td>c_destchoice_license_job</td><td>6.23e-07</td><td>0.0243</td><td>-1.22e+03</td><td>0</td><td>7.71e-07</td><td>0.0229</td><td>-1.19e+03</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Metro_Metro</td><td>-0.000318</td><td>-0.0402</td><td>9.52</td><td>0</td><td>-0.000329</td><td>-0.0409</td><td>9.97</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Metro_Micro</td><td>-0.000562</td><td>-0.0375</td><td>9.87</td><td>0</td><td>-0.000807</td><td>-0.0545</td><td>10.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Metro_T34</td><td>-0.000175</td><td>-0.0127</td><td>13.1</td><td>0</td><td>-1.01e-05</td><td>-0.000737</td><td>13.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Micro_Metro</td><td>-0.000446</td><td>-0.0302</td><td>11.4</td><td>0</td><td>-0.000345</td><td>-0.0235</td><td>12</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Micro_Micro</td><td>-0.000674</td><td>-0.0601</td><td>7.04</td><td>1.91e-12</td><td>-0.000722</td><td>-0.0682</td><td>7.37</td><td>1.69e-13</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_Micro_T34</td><td>-0.000256</td><td>-0.0135</td><td>15</td><td>0</td><td>0.000106</td><td>0.00573</td><td>15.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_T34_Metro</td><td>-6.29e-05</td><td>-0.00518</td><td>12.8</td><td>0</td><td>-1.16e-06</td><td>-9.57e-05</td><td>13.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_T34_Micro</td><td>-0.000219</td><td>-0.0116</td><td>12.1</td><td>0</td><td>-8.24e-06</td><td>-0.000444</td><td>12.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_age_18_34</td><td>0.00117</td><td>0.0352</td><td>-1.27</td><td>0.205</td><td>0.000902</td><td>0.0284</td><td>-1.31</td><td>0.191</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_age_over_65</td><td>-0.00286</td><td>-0.125</td><td>-0.36</td><td>0.719</td><td>-0.00239</td><td>-0.11</td><td>-0.376</td><td>0.707</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_college</td><td>-1.47e-08</td><td>-0.0311</td><td>14.3</td><td>0</td><td>-1.45e-08</td><td>-0.0317</td><td>15</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_dist</td><td>8.45e-11</td><td>0.0121</td><td>14.3</td><td>0</td><td>1.5e-10</td><td>0.0126</td><td>15</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_foreign</td><td>0.000488</td><td>0.0143</td><td>15.8</td><td>0</td><td>-3.29e-05</td><td>-0.00092</td><td>15.7</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_geo_spec_job</td><td>-0.000471</td><td>-0.818</td><td>-18.1</td><td>0</td><td>-0.000433</td><td>-0.805</td><td>-19</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_hhcost</td><td>-0.000985</td><td>-0.046</td><td>24.5</td><td>0</td><td>-0.000462</td><td>-0.0227</td><td>25.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_high_ed_job</td><td>0.0145</td><td>0.312</td><td>5.95</td><td>2.64e-09</td><td>0.0134</td><td>0.302</td><td>6.09</td><td>1.16e-09</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_license_job</td><td>-0.00163</td><td>-0.846</td><td>-31.8</td><td>0</td><td>-0.0015</td><td>-0.837</td><td>-33.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_other</td><td>c_destchoice_logdist</td><td>-1.13e-05</td><td>-0.0166</td><td>15.8</td><td>0</td><td>-1.75e-05</td><td>-0.0202</td><td>16.6</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Metro_Metro</td><td>-1.3e-05</td><td>-0.00159</td><td>-6.2</td><td>5.7e-10</td><td>8.34e-05</td><td>0.00953</td><td>-6.18</td><td>6.57e-10</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Metro_Micro</td><td>-0.00109</td><td>-0.0705</td><td>-5.29</td><td>1.25e-07</td><td>-0.00134</td><td>-0.0831</td><td>-5.23</td><td>1.68e-07</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Metro_T34</td><td>0.00025</td><td>0.0176</td><td>-2.45</td><td>0.0144</td><td>0.000372</td><td>0.0249</td><td>-2.43</td><td>0.0149</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Micro_Metro</td><td>6.18e-05</td><td>0.00406</td><td>-3.87</td><td>0.000108</td><td>0.000455</td><td>0.0286</td><td>-3.87</td><td>0.000108</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Micro_Micro</td><td>-0.000769</td><td>-0.0665</td><td>-8.29</td><td>0</td><td>-0.000775</td><td>-0.0673</td><td>-8.27</td><td>2.22e-16</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_Micro_T34</td><td>0.00085</td><td>0.0435</td><td>-0.117</td><td>0.907</td><td>0.00112</td><td>0.0557</td><td>-0.117</td><td>0.907</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_T34_Metro</td><td>-0.000152</td><td>-0.0122</td><td>-2.83</td><td>0.00471</td><td>0.000166</td><td>0.0126</td><td>-2.82</td><td>0.00473</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_T34_Micro</td><td>-0.000939</td><td>-0.0481</td><td>-2.91</td><td>0.00359</td><td>-0.000712</td><td>-0.0353</td><td>-2.9</td><td>0.00369</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_age_18_34</td><td>-0.0085</td><td>-0.248</td><td>-13.1</td><td>0</td><td>-0.00861</td><td>-0.249</td><td>-13</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_age_over_65</td><td>0.0063</td><td>0.268</td><td>-16.4</td><td>0</td><td>0.00642</td><td>0.271</td><td>-16.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_college</td><td>-5.18e-09</td><td>-0.0107</td><td>-1.83</td><td>0.0671</td><td>1.46e-09</td><td>0.00293</td><td>-1.82</td><td>0.0681</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_dist</td><td>7.68e-11</td><td>0.0107</td><td>-1.83</td><td>0.0671</td><td>2.66e-10</td><td>0.0204</td><td>-1.82</td><td>0.0682</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_foreign</td><td>-0.00131</td><td>-0.0372</td><td>2.16</td><td>0.031</td><td>-0.00151</td><td>-0.0388</td><td>2.08</td><td>0.0372</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_geo_spec_job</td><td>8.29e-05</td><td>0.14</td><td>-33.4</td><td>0</td><td>6.33e-05</td><td>0.108</td><td>-33.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_hhcost</td><td>0.0185</td><td>0.838</td><td>15.2</td><td>0</td><td>0.0185</td><td>0.837</td><td>15.1</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_high_ed_job</td><td>-0.00042</td><td>-0.00874</td><td>-6.83</td><td>8.22e-12</td><td>-0.000158</td><td>-0.00327</td><td>-6.85</td><td>7.6e-12</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_license_job</td><td>-3.77e-05</td><td>-0.019</td><td>-47.4</td><td>0</td><td>-0.000109</td><td>-0.0558</td><td>-47.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_logdist</td><td>1.73e-06</td><td>0.00247</td><td>-0.381</td><td>0.703</td><td>-1.8e-05</td><td>-0.0191</td><td>-0.38</td><td>0.704</td></tr>
+<tr class=biostyle><td>c_destchoice_unemp</td><td>c_destchoice_other</td><td>0.00113</td><td>0.0216</td><td>-11.4</td><td>0</td><td>0.00233</td><td>0.0465</td><td>-11.8</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Metro_Metro</td><td>0.000596</td><td>0.324</td><td>253</td><td>0</td><td>0.000675</td><td>0.343</td><td>252</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Metro_Micro</td><td>0.000622</td><td>0.179</td><td>176</td><td>0</td><td>0.000689</td><td>0.19</td><td>173</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Metro_T34</td><td>0.000413</td><td>0.129</td><td>190</td><td>0</td><td>0.000595</td><td>0.177</td><td>189</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Micro_Metro</td><td>0.000532</td><td>0.155</td><td>180</td><td>0</td><td>0.00063</td><td>0.176</td><td>177</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Micro_Micro</td><td>0.000784</td><td>0.301</td><td>212</td><td>0</td><td>0.000849</td><td>0.328</td><td>217</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_Micro_T34</td><td>0.000541</td><td>0.123</td><td>158</td><td>0</td><td>0.000675</td><td>0.149</td><td>158</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_T34_Metro</td><td>0.000432</td><td>0.154</td><td>205</td><td>0</td><td>0.000575</td><td>0.195</td><td>205</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_T34_Micro</td><td>0.000563</td><td>0.128</td><td>151</td><td>0</td><td>0.000662</td><td>0.146</td><td>149</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_age_18_34</td><td>0.0034</td><td>0.44</td><td>81.5</td><td>0</td><td>0.0036</td><td>0.463</td><td>82.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_age_over_65</td><td>-0.00246</td><td>-0.464</td><td>82.9</td><td>0</td><td>-0.00258</td><td>-0.485</td><td>82.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_college</td><td>-2.02e-08</td><td>-0.185</td><td>275</td><td>0</td><td>-2.27e-08</td><td>-0.202</td><td>274</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_dist</td><td>-4.45e-11</td><td>-0.0275</td><td>275</td><td>0</td><td>-2.83e-11</td><td>-0.00965</td><td>274</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_foreign</td><td>0.0009</td><td>0.114</td><td>100</td><td>0</td><td>0.00117</td><td>0.134</td><td>92</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_geo_spec_job</td><td>2.81e-05</td><td>0.21</td><td>136</td><td>0</td><td>2.89e-05</td><td>0.22</td><td>135</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_hhcost</td><td>0.00395</td><td>0.796</td><td>280</td><td>0</td><td>0.00394</td><td>0.791</td><td>279</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_high_ed_job</td><td>0.000515</td><td>0.0475</td><td>60.2</td><td>0</td><td>0.000572</td><td>0.0528</td><td>60.4</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_license_job</td><td>-8.59e-06</td><td>-0.0192</td><td>70.7</td><td>0</td><td>-1.06e-05</td><td>-0.0241</td><td>70.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_logdist</td><td>2.1e-05</td><td>0.133</td><td>283</td><td>0</td><td>1.3e-05</td><td>0.0615</td><td>281</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_other</td><td>0.000723</td><td>0.0611</td><td>48.9</td><td>0</td><td>0.000633</td><td>0.056</td><td>51.2</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay</td><td>c_destchoice_unemp</td><td>0.00708</td><td>0.581</td><td>71.7</td><td>0</td><td>0.00687</td><td>0.56</td><td>71</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Metro_Metro</td><td>-0.000455</td><td>-0.0858</td><td>-1.73</td><td>0.0837</td><td>-0.000347</td><td>-0.0603</td><td>-1.71</td><td>0.0881</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Metro_Micro</td><td>-0.000506</td><td>-0.0504</td><td>-0.696</td><td>0.486</td><td>-0.000328</td><td>-0.031</td><td>-0.687</td><td>0.492</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Metro_T34</td><td>-0.000423</td><td>-0.0458</td><td>3.62</td><td>0.000295</td><td>-0.000511</td><td>-0.052</td><td>3.54</td><td>0.000405</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Micro_Metro</td><td>-0.00068</td><td>-0.0687</td><td>1.48</td><td>0.138</td><td>-0.000264</td><td>-0.0252</td><td>1.48</td><td>0.14</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Micro_Micro</td><td>-0.000793</td><td>-0.106</td><td>-4.96</td><td>6.89e-07</td><td>-0.000667</td><td>-0.088</td><td>-4.92</td><td>8.54e-07</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_Micro_T34</td><td>-0.000556</td><td>-0.0438</td><td>6.57</td><td>5.11e-11</td><td>-0.000534</td><td>-0.0404</td><td>6.46</td><td>1.04e-10</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_T34_Metro</td><td>-3.36e-05</td><td>-0.00413</td><td>3.17</td><td>0.00155</td><td>0.000264</td><td>0.0305</td><td>3.14</td><td>0.00169</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_T34_Micro</td><td>-5e-05</td><td>-0.00393</td><td>2.62</td><td>0.00876</td><td>0.000635</td><td>0.0478</td><td>2.63</td><td>0.00853</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_age_18_34</td><td>0.000813</td><td>0.0364</td><td>-13.5</td><td>0</td><td>-0.000671</td><td>-0.0295</td><td>-12.9</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_age_over_65</td><td>-5.28e-05</td><td>-0.00345</td><td>-14</td><td>0</td><td>0.000969</td><td>0.0622</td><td>-14.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_college</td><td>-1.17e-08</td><td>-0.0372</td><td>5.02</td><td>5.13e-07</td><td>1.16e-08</td><td>0.0355</td><td>4.94</td><td>7.78e-07</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_dist</td><td>1.91e-11</td><td>0.00411</td><td>5.02</td><td>5.12e-07</td><td>-3.47e-10</td><td>-0.0405</td><td>4.94</td><td>7.76e-07</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_foreign</td><td>0.00113</td><td>0.0495</td><td>8.61</td><td>0</td><td>0.000747</td><td>0.0292</td><td>8.04</td><td>8.88e-16</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_geo_spec_job</td><td>-0.000188</td><td>-0.487</td><td>-43.2</td><td>0</td><td>-0.000196</td><td>-0.508</td><td>-42.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_hhcost</td><td>-4.51e-05</td><td>-0.00315</td><td>20.4</td><td>0</td><td>0.000477</td><td>0.0328</td><td>20.5</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_high_ed_job</td><td>0.00823</td><td>0.264</td><td>-4.29</td><td>1.79e-05</td><td>0.00867</td><td>0.274</td><td>-4.3</td><td>1.67e-05</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_license_job</td><td>-0.000656</td><td>-0.508</td><td>-63.4</td><td>0</td><td>-0.000697</td><td>-0.543</td><td>-62.3</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_logdist</td><td>-1.15e-05</td><td>-0.0252</td><td>7.25</td><td>4.26e-13</td><td>1.24e-05</td><td>0.02</td><td>7.14</td><td>9.54e-13</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_other</td><td>0.00903</td><td>0.264</td><td>-10.4</td><td>0</td><td>0.0099</td><td>0.3</td><td>-11</td><td>0</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_destchoice_unemp</td><td>-4.59e-05</td><td>-0.0013</td><td>4.27</td><td>1.96e-05</td><td>0.00295</td><td>0.0821</td><td>4.41</td><td>1.04e-05</td></tr>
+<tr class=biostyle><td>c_stay_hhcost</td><td>c_stay</td><td>-0.00206</td><td>-0.26</td><td>-79.1</td><td>0</td><td>-0.0018</td><td>-0.223</td><td>-78.8</td><td>0</td></tr>
+</table>
+<p>Smallest eigenvalue: 0.319625</p>
+<p>Largest eigenvalue: 3.10098e+15</p>
+<p>Condition number: 9.70196e+15</p>
+</html>
