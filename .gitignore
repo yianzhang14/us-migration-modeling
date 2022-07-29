@@ -11,3 +11,8 @@ data/leave_puma.csv
 .ipynb_checkpoints
 data/us_estdata_expanded.csv
 data/us_estdata_expanded2.csv
+data/psam_husa_2017.csv
+data/psam_husb_2017.csv
+data/psam_pusb_2017.csv
+data/psam_pusa_2017.csv
+data/us_estdata_2017.csv
