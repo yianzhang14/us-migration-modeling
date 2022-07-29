@@ -9,3 +9,5 @@ data/stay_migpuma.csv
 data/leave_puma.csv
 data/leave_puma.csv
 .ipynb_checkpoints
+data/us_estdata_expanded.csv
+data/us_estdata_expanded2.csv
