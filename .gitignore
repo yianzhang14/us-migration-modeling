@@ -18,3 +18,5 @@ data/psam_pusa_2017.csv
 data/us_estdata_2017.csv
 old/
 data/migration-slr-data
+data/digital_ocean
+data/WA_PQR_slr_final_dist.gdb
