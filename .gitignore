@@ -20,3 +20,4 @@ old/
 data/migration-slr-data
 data/digital_ocean
 data/WA_PQR_slr_final_dist.gdb
+data/ipums*
